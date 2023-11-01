@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,500 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Shadows+Into+Light & display=swap');
+
+
+
+:root{
+    --fonte-padrão: Arial, Helvetica, sans-serif; 
+    --fonte-Titulo: 'Kanit', sem serifa;
+    --fonte-Paragrafo:  'Bebas Neue', sem serifa;
+    --fonte-classe: 'Shadows Into Light', cursiva;
+
+    --cor01: #262633;
+    --cor02: #4C4C75;
+    --cor03: #DB23C6;
+    --cor04: #A83D9C;
+}
+
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+
+body,html{
+    min-height: 100vw;
+    font-family: var(--fonte-padrão);
+}
+
+header{
+    background-color: black;
+    padding: 30px;
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 10px;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+}
+
+header p{
+    color: white;
+    font-family: var(--fonte-padrão);
+    text-align: center;
+    padding-top: 5px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover{
+    background-color: var(--cor03);
+    border-radius: 5px;
+    padding: 3px;
+    
+    
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-family: var(--fonte-classe);
+    font-size: 3.5vw;
+}
+
+section.imagens {
+    background-color: rgb(237, 233, 233);
+    background-image: url('../imagens/images\ 01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+
+
+}
+section.imagens>p{
+    background-color: rgba(21, 20, 20, 0.672);
+    max-width: 50vh;
+    color: white;
+}
+
+section#imagens01{
+    background-color: rgb(237, 233, 233); 
+    background-image: url('../imagens/images\ 02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section#imagens01>p{
+    background-color: rgba(21, 20, 20, 0.672);
+    max-width: 50vh;
+    color: white;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px; 
+}
+
+footer p{
+    color: white;
+    font-family: var(--fonte-padrão);
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
